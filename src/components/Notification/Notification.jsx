@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
+import styles from '../Notification/Notification.module.css';
 
 export const Notification = ( {message} ) => {
   return (
-        <p>{message}</p>
+        <p className={styles.notification
+        }>{message}</p>
   )
 }
